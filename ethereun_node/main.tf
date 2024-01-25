@@ -14,6 +14,6 @@ output "geth WS URL" {
 module "geth" {
   network = "mainnet"
   source = "../.."
-  public_key = "" # insert public key
+  # public_key = "" insert public key
   availability_zone = "us-east-1b"
 }
